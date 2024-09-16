@@ -1,16 +1,25 @@
-* {
-  padding: 0;
+ .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellowgreen;
+ }
+
+ .rabbit{
+  background-color: yellowgreen;
+  width: 250px;
+ }
+body {
+  font-family: system-ui;
   margin: 0;
 }
 
-body {
-  font-family: system-ui;
-}
-
 nav {
-  padding: 10px;
-  margin-bottom: 10px;
+ 
   background: green;
+
+
+  
 }
 
 ul {
@@ -19,12 +28,13 @@ ul {
 
 li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 a {
   text-decoration: none;
   color: white;
+  font-size: 1.5em;
 }
 
 a:hover {

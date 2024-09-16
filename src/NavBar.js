@@ -3,7 +3,7 @@ import logo from "./logo.svg"
  
 const Navbar = () => {
     return (
-        <>
+        <div className='container'>
         <img src={logo} width={200} height={200} />
         <nav>
             <ul>
@@ -13,7 +13,7 @@ const Navbar = () => {
                 <li><Link to="/contact">Contact</Link></li>
             </ul>
         </nav>
-        </>
+        </div>
     );
 }
  
