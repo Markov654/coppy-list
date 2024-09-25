@@ -1,12 +1,13 @@
 import { useState } from "react";
-import ReactDOM from 'react-dom/client'
+import{ Button }from"antd"
+;
 const Home = () => {
 
     const [color,setColor] = useState('red');
 
     return <div>
        <h1>My favorite color is {color}</h1>
-       <button type="button" onClick={() => setColor('blue')}>Blue</button>
+       <Button type = "primary" onClick={() => setColor('blue')}>Blue</Button>
 
     </div>;
 }
