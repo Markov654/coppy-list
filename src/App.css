@@ -1,8 +1,14 @@
+ html{
+  margin: 100px;
+  background: linear-gradient(0.25turn, #2e3233, #ebf8e1, #292623);
+  margin-top: 0;
+ }
+ 
  .container{
   display: flex;
-  justify-content: space-between;
+ 
   align-items: center;
-  background-color: yellowgreen;
+  background-color: rgb(0, 197, 0)
  }
 
  .rabbit{
@@ -14,9 +20,13 @@ body {
   margin: 0;
 }
 
+
+
 nav {
  
-  background: green;
+ display: flex;
+ justify-content: left;
+ margin-left: 100px;
 
 
   
@@ -39,4 +49,22 @@ a {
 
 a:hover {
   color: #eee;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  color: white;
+  background-color: #2e3233;
+  font-size: 1.8em;
+  margin-left: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.button:hover{
+  background-color: #eee;
+  color: #2e3233;
 }
