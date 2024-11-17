@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import logo from "./car.png"
- 
+
+
 const Navbar = () => {
     return (
         <div className='container'>

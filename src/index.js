@@ -10,6 +10,7 @@ import Home from './Home'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
+import 'bootstrap/dist/css/bootstrap.min.css';
  
 const router = createBrowserRouter([
     {
