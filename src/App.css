@@ -4,12 +4,7 @@
   margin-top: 0;
  }
  
- .container{
-  display: flex;
- 
-  align-items: center;
-  background-color: rgb(0, 197, 0)
- }
+
 
  .rabbit{
   background-color: yellowgreen;
@@ -22,14 +17,23 @@ body {
 
 
 
-nav {
+.navigation {
  
  display: flex;
  justify-content: left;
  margin-left: 100px;
+ flex-direction: column;
 
 
-  
+
+}
+
+@media only screen and (min-width: 800px) {
+
+ .navigation{
+  flex-direction: row;
+ }
+
 }
 
 ul {
