@@ -1,7 +1,10 @@
  html{
-  margin: 100px;
+  margin: 2.5em;
   background: linear-gradient(0.25turn, #2e3233, #ebf8e1, #292623);
-  margin-top: 0;
+  margin-top:0;
+  
+  
+
  }
  
 
@@ -10,19 +13,18 @@
   background-color: yellowgreen;
   width: 250px;
  }
-body {
-  font-family: system-ui;
-  margin: 0;
-}
+
+
 
 
 
 .navigation {
  
  display: flex;
- justify-content: left;
+align-items: center;
  margin-left: 100px;
  flex-direction: column;
+ justify-content: space-between;
 
 
 
@@ -75,3 +77,7 @@ a:hover {
 }
 
 
+img{
+  border-radius: 10px;
+  width: 150px;
+}

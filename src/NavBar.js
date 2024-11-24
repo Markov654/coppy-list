@@ -8,9 +8,10 @@ import Col from "react-bootstrap/Col";
 const Navbar = () => {
     return (
         <Container>
+           
             <Row>
-                <Col><img src={logo} width={180} height={150} left = {0} /> </Col>
-                <Col xs={8}>
+                <Col > <img src={logo}  /> </Col>
+                <Col>
                     <nav className='navigation'>
                         <Link to="/">За нас</Link>
                         <Link to="/about">Автопарк</Link>
@@ -21,7 +22,7 @@ const Navbar = () => {
                 <Col><button className='button'> Виж колите</button></Col>
             </Row>
         
-      
+           
         
         </Container>
     );
