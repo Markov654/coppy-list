@@ -8,16 +8,17 @@ const Navbar = () => {
      <div className='container'>
         <div className='row'>
             <div className='col-md-3'>
-            <img src = {logo}></img>
+            <img src = {logo}  height={240}></img>
             </div>
      <div className='col-md-6'>
      <nav className='navigation'>
-        <ul> 
+        <ul>
+        <li><a> <Link to="/">За нас</Link></a></li>
+        <li><a> <Link to="/about">Автопарк</Link></a></li>
+        <li><a> <Link  to="/projects">Често задавани въпроси</Link></a></li>
+        <li><a> <Link to="/contact">Контакти</Link></a></li>
             
-        < Link to="/">За нас</Link>
-                        <Link to="/about">Автопарк</Link>
-                        <Link to="/projects">Често задавани въпроси</Link>
-                        <Link to="/contact">Контакти</Link>
+       
         </ul>
                        
                     </nav>
