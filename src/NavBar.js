@@ -12,10 +12,14 @@ const Navbar = () => {
             </div>
      <div className='col-md-6'>
      <nav className='navigation'>
-                        <Link to="/">За нас</Link>
+        <ul> 
+            
+        < Link to="/">За нас</Link>
                         <Link to="/about">Автопарк</Link>
                         <Link to="/projects">Често задавани въпроси</Link>
                         <Link to="/contact">Контакти</Link>
+        </ul>
+                       
                     </nav>
      </div>
      <div className='col-md-3'>
