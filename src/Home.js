@@ -3,13 +3,13 @@ import{ Button }from"antd"
 ;
 const Home = () => {
 
-    const [color,setColor] = useState('red');
+  
 
-    return <div>
-       <h1>My favorite color is {color}</h1>
-       <Button type = "primary" onClick={() => setColor('blue')}>Blue</Button>
-
-    </div>;
+    return (<div className="container">
+        <h1>Най-доброто пътуване</h1>
+        <h2>коли под наем</h2>
+       
+    </div>);
 }
  
 export default Home;
