@@ -100,7 +100,7 @@ img{
   width: 250px;
  }
 
- .mql{
+ .head{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,5 +109,19 @@ img{
   font-size: 2em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  
+ }
+
+ .mql{
+  background-color: rgb(31, 31, 29);
+  height: 5px;
+  width: 50%;
+  border-radius: 7px;
+
+ }
+
+ p{
+  text-align: center;
+  color: rgb(6, 223, 6);;
+  font-size: 1.5em;
  }
  
