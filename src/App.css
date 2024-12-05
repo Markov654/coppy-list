@@ -106,13 +106,8 @@ img{
   align-items: center;
   flex-direction: column;
   color:rgb(6, 223, 6);
-
+  font-size: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  
  }
- .h1 {
-  font-size: 1.5em;
- }
-
- .h2{
-  font-size: 1.5em;
- }
+ 
