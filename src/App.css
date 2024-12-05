@@ -47,7 +47,7 @@ align-items: center;
 
  li a {
   text-decoration: none;
-  color: white;
+  color: rgb(6, 223, 6);
   font-size: 1.2em;
  
 }
@@ -61,16 +61,16 @@ a:hover {
   color: white;
   background-color: #2e3233;
   font-size: 1.8em;
-  
-  padding: 10px;
+  margin-top: 2em;
+  padding: 15px;
   cursor: pointer;
   border-radius: 12px;
   
 }
 
 .button:hover{
-  background-color: #eee;
-  color: #2e3233;
+  background-color: #494646;
+  color:rgb(6, 223, 6); ;
 }
 
 
