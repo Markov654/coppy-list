@@ -6,7 +6,7 @@ const Contact = () => {
     return(
         <div>
            <h1> Test librarily </h1> 
-           <p>mql</p>
+           
            <Button  type="primary"> Click</Button>
         </div>
     );
